@@ -89,4 +89,4 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV['HEROKU_POSTGRESQL_MAUVE_URL'] %>
+  url: <%= ENV['DATABASE_URL'] %>
